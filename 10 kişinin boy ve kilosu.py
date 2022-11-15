@@ -1,8 +1,6 @@
-# importing package
 import matplotlib.pyplot as plt
 import numpy as np
   
-# create data
 i = 0
 boylar=[0,0,0,0,0,0,0,0,0,0]
 kilolar=[0,0,0,0,0,0,0,0,0,0]
@@ -15,7 +13,6 @@ while i<10:
     i += 1
 width = 0.4
   
-# plot data in grouped manner of bar type
 print (boylar)
 print (kilolar)
 fig, ax = plt.subplots()
